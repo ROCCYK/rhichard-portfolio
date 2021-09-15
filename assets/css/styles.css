@@ -1,10 +1,11 @@
 * {
   font-family: "Poppins", sans-serif;
+  margin-top: 0%;
 }
 
-html {
+/* html {
   overflow-x: hidden;
-}
+} */
 
 html,
 body {
@@ -15,21 +16,98 @@ body {
 .hero {
   background-color: #e7090d;
   color: #fafff9;
+  font-weight: 700;
+  padding: 10rem 10rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about {
   background-color: #1d232f;
   color: #fafff9;
+  font-weight: 700;
+  padding: 10rem 4rem ;
 }
 .experience {
   background-color: #fafff9;
   color: #1d232f;
+  font-weight: 700;
+  padding: 10rem 4rem ;
 }
 .education {
   background-color: #1d232f;
   color: #fafff9;
+  font-weight: 700;
+  padding: 10rem 4rem ;
 }
 .contact {
   background-color: #fafff9;
   color: #1d232f;
+  font-weight: 700;
+  padding: 10rem 4rem ;
+}
+.logo {
+  color: #e7090d;
+  font-size: 64px;
+  margin: 0px;    
+  padding 0 -2rem
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: #e7090d;
+  font-weight: 700;
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.japanese {
+  font-size: 80px;
+  margin-bottom: 0%;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  letter-spacing: 50px;
+}
+#rhichard {
+  font-size: 80px;
+  margin-bottom: 0%
+}
+#hello {
+  font-size: 40px;
+  margin-bottom: 0%
+}
+#ai-student {
+  font-size: 40px;
+  margin-bottom: 0%
+}
+p {
+  font-weight: normal;
+}
+h1 {
+  font-size: 36px;
+}
+.pina {
+  margin-bottom: 0%;
+}
+.green {
+  color: #0B8261;
+}
+.sems {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 2rem;
 }
