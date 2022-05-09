@@ -22,8 +22,13 @@ nav {
   padding: 0 4rem;
   box-sizing: border-box;
   font-weight: 700;
+  position:sticky;
+  top: 0;
+  background-color: #fafff9;
 }
-html,
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
